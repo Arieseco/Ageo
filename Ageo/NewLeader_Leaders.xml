@@ -25,6 +25,7 @@
 	<Traits>
 		<Row TraitType="TRAIT_LEADER_SAMPLELEADER" Name="LOC_TRAIT_LEADER_SAMPLELEADER_NAME" Description="LOC_TRAIT_LEADER_SAMPLELEADER_DESCRIPTION"/>
 	</Traits>
+	
 	<!--- 固有アジェンダ -->
 	<HistoricalAgendas>
 		<Row LeaderType="LEADER_SAMPLELEADER" AgendaType="AGENDA_BUSHIDO"/>

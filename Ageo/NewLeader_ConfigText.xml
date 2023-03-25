@@ -15,7 +15,7 @@
 			<Text>Super Sample Civilization's Traits</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_SAMPLECIV_DESCRIPTION" Language="en_US">
-			<Text>No traits</Text>
+			<Text>Food +2 from Trade Routes</Text>
 		</Row>
 
 		<!-- Leader -->

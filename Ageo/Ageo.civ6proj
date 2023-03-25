@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
     <Name>Example - New Leader and Civilization</Name>
-    <Guid>457b201e-bd52-49ea-8635-c2f366bcdef5</Guid>
+    <Guid>9d58d6b5-ac67-4606-9254-3a5db9becaf1</Guid>
     <ProjectGuid>3a0eb59d-17ac-41aa-8761-25cbe34be218</ProjectGuid>
     <ModVersion>1</ModVersion>
-    <Teaser>This example mod demonstrates how to add a new leader and civilization to the game.</Teaser>
-    <Description>This example mod demonstrates how to add a new leader and civilization to the game.</Description>
+    <Teaser>埼玉県上尾市</Teaser>
+    <Description>埼玉県上尾市のMODです。指導者アッピ―くんを追加します。</Description>
     <AffectsSavedGames>true</AffectsSavedGames>
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
@@ -21,6 +21,7 @@
     <AssociationData><![CDATA[<Associations>
   <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
 </Associations>]]></AssociationData>
+    <Authors>AriesEcoCivilizationMod</Authors>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
