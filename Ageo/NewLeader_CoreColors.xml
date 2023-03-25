@@ -8,7 +8,7 @@
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_LEADER_SAMPLELEADER_SECONDARY</Type>
-			<Color>0,0,0,255</Color>
+			<Color>50,153,0,255</Color>
 		</Row>
 	</Colors>
 </GameInfo>

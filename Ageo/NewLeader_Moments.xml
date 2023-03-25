@@ -2,5 +2,10 @@
 <GameData>
 	<!-- 歴史年表用の画像 -->
 	<MomentIllustrations>
+		<!-- 歴史年表用の画像 -->
+		<MomentIllustrations>
+			<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_CIVILIZATION_SAMPLECIV_WAR_CART" Texture="Moment_UniqueUnit_Sumerian.dds"/>
+			<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT" MomentDataType="MOMENT_DATA_DISTRICT" GameDataType="DISTRICT_CIVILIZATION_SAMPLECIV_ECHONOMIC_ZONE" Texture="MomentXP2_BuildingSuguba.dds"/>
+		</MomentIllustrations>
 	</MomentIllustrations>
 </GameData>

@@ -19,6 +19,16 @@
 		</Row>
 	</Players>
 	<PlayerItems>
-
+		<!-- 区域 -->
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_SAMPLECIV</CivilizationType>
+			<LeaderType>LEADER_SAMPLELEADER</LeaderType>
+			<Type>DISTRICT_CIVILIZATION_SAMPLECIV_ECHONOMIC_ZONE</Type>
+			<Icon>ICON_DISTRICT_CIVILIZATION_SAMPLECIV_ECHONOMIC_ZONE</Icon>
+			<Name>LOC_DISTRICT_CIVILIZATION_SAMPLECIV_ECHONOMIC_ZONE_NAME</Name>
+			<Description>LOC_DISTRICT_CIVILIZATION_SAMPLECIV_ECHONOMIC_ZONE_DESCRIPTION</Description>
+			<SortIndex>20</SortIndex>
+		</Row>
 	</PlayerItems>
 </GameData>

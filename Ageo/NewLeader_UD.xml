@@ -1,4 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-
+	<!-- 親定義 -->
+	<Types>
+		<Row Type="DISTRICT_CIVILIZATION_SAMPLECIV_ECHONOMIC_ZONE" Kind="KIND_DISTRICT"/>
+	</Types>
+	<!-- 置き換え指定 -->
+	<DistrictReplaces>
+		<Row CivUniqueDistrictType="DISTRICT_CIVILIZATION_SAMPLECIV_ECHONOMIC_ZONE" ReplacesDistrictType="DISTRICT_COMMERCIAL_HUB"/>
+	</DistrictReplaces>
+	<!-- 区域の主設定 -->
+	<Districts>
+		<!-- 必要生産力半分、他は商業ハブと同じ -->
+		<Row DistrictType="DISTRICT_CIVILIZATION_SAMPLECIV_ECHONOMIC_ZONE" Name="LOC_DISTRICT_CIVILIZATION_SAMPLECIV_ECHONOMIC_ZONE_NAME" Description="LOC_DISTRICT_CIVILIZATION_SAMPLECIV_ECHONOMIC_ZONE_DESCRIPTION"
+             PrereqTech="TECH_CURRENCY" PlunderType="PLUNDER_GOLD" PlunderAmount="50" AdvisorType="ADVISOR_GENERIC" Cost="27"
+             CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="40" RequiresPlacement="true"
+             RequiresPopulation="true" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="false"
+             CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN"
+             TravelTime="3" CityStrengthModifier="2" TraitType="TRAIT_CIVILIZATION_DISTRICT_CIVILIZATION_SAMPLECIV_ECHONOMIC_ZONE"/>
+	</Districts>
+	<!-- 適用する隣接ボーナス -->
+	<District_Adjacencies>
+		<!-- ゴールド：川+2、港、王立海軍造船所+2、複合政府施設+1、工業地帯+1、他の区域+0.5 -->
+		<!-- 工業地帯以外はバニラの商業ハブのものを使いまわし -->
+		<Row DistrictType="DISTRICT_CIVILIZATION_SAMPLECIV_ECHONOMIC_ZONE" YieldChangeId="River_Gold"/>
+		<Row DistrictType="DISTRICT_CIVILIZATION_SAMPLECIV_ECHONOMIC_ZONE" YieldChangeId="Harbor_Gold"/>
+		<Row DistrictType="DISTRICT_CIVILIZATION_SAMPLECIV_ECHONOMIC_ZONE" YieldChangeId="RoyalDock_Gold"/>
+		<Row DistrictType="DISTRICT_CIVILIZATION_SAMPLECIV_ECHONOMIC_ZONE" YieldChangeId="District_Gold"/>
+		<Row DistrictType="DISTRICT_CIVILIZATION_SAMPLECIV_ECHONOMIC_ZONE" YieldChangeId="Government_Gold"/>
+		<Row DistrictType="DISTRICT_CIVILIZATION_SAMPLECIV_ECHONOMIC_ZONE" YieldChangeId="CIVILIZATION_SAMPLECIV_Industrial_Zone_Gold"/>
+	</District_Adjacencies>
+	<!-- 偉人ポイント -->
+	<District_GreatPersonPoints>
+		<!-- 大商人ポイント+2 -->
+		<Row DistrictType="DISTRICT_CIVILIZATION_SAMPLECIV_ECHONOMIC_ZONE" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="2"/>
+	</District_GreatPersonPoints>
+	<!-- 交易路の出力 -->>
+	<District_TradeRouteYields>
+		<!-- 国内：生産力+1、国外：ゴールド+3 -->
+		<Row DistrictType="DISTRICT_CIVILIZATION_SAMPLECIV_ECHONOMIC_ZONE" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="0"/>
+		<Row DistrictType="DISTRICT_CIVILIZATION_SAMPLECIV_ECHONOMIC_ZONE" YieldType="YIELD_GOLD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="3"/>
+	</District_TradeRouteYields>
+	<!-- 市民配置時の出力 -->
+	<District_CitizenYieldChanges>
+		<Row DistrictType="DISTRICT_CIVILIZATION_SAMPLECIV_ECHONOMIC_ZONE" YieldType="YIELD_GOLD" YieldChange="4"/>
+	</District_CitizenYieldChanges>
+	<!-- 隣接ボーナスの主設定 -->
+	<Adjacency_YieldChanges>
+		<Row ID="CIVILIZATION_SAMPLECIV_Industrial_Zone_Gold" Description="LOC_DISTRICT_INDUSTRIAL_ZONE_GOLD_CIVILIZATION_SAMPLECIV" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_INDUSTRIAL_ZONE"/>
+	</Adjacency_YieldChanges>
 </GameData>

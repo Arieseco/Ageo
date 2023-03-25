@@ -21,6 +21,98 @@
 	<LeaderTraits>
 		<Row LeaderType="LEADER_SAMPLELEADER" TraitType="TRAIT_LEADER_SAMPLELEADER"/>
 	</LeaderTraits>
+	<TraitModifiers>
+		<!-- 国外交易路から生産力+2 -->
+		<Row>
+			<TraitType>TRAIT_LEADER_SAMPLELEADER</TraitType>
+			<ModifierId>TRAIT_INTERNATIONAL_PRODUCTION_AGEO</ModifierId>
+		</Row>
+		<!-- 国内交易路から生産力+2 -->
+		<Row>
+			<TraitType>TRAIT_LEADER_SAMPLELEADER</TraitType>
+			<ModifierId>TRAIT_DOMESTIC_PRODUCTION_AGEO</ModifierId>
+		</Row>
+		<!-- 国外交易路から食料+2 -->
+		<Row>
+			<TraitType>TRAIT_LEADER_SAMPLELEADER</TraitType>
+			<ModifierId>TRAIT_INTERNATIONAL_FOOD_AGEO</ModifierId>
+		</Row>
+		<!-- 国内交易路から食料+2 -->
+		<Row>
+			<TraitType>TRAIT_LEADER_SAMPLELEADER</TraitType>
+			<ModifierId>TRAIT_DOMESTIC_FOOD_AGEO</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<!-- 特性の個別定義 -->
+	<Modifiers>
+		<!-- 国外交易路から生産力+2 -->
+		<Row>
+			<ModifierId>TRAIT_INTERNATIONAL_PRODUCTION_AGEO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_FOR_INTERNATIONAL</ModifierType>
+		</Row>
+		<!-- 国内交易路から生産力+2 -->
+		<Row>
+			<ModifierId>TRAIT_DOMESTIC_PRODUCTION_AGEO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_FOR_DOMESTIC</ModifierType>
+		</Row>
+		<!-- 国外交易路から食料+2 -->
+		<Row>
+			<ModifierId>TRAIT_INTERNATIONAL_FOOD_AGEO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_FOR_INTERNATIONAL</ModifierType>
+		</Row>
+		<!-- 国内交易路から食料+2 -->
+		<Row>
+			<ModifierId>TRAIT_DOMESTIC_FOOD_AGEO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_FOR_DOMESTIC</ModifierType>
+		</Row>
+	</Modifiers>
+	<!-- 特性のパラメータ -->
+	<ModifierArguments>
+		<!-- 国外交易路から生産力+2 -->
+		<Row>
+			<ModifierId>TRAIT_INTERNATIONAL_PRODUCTION_AGEO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INTERNATIONAL_PRODUCTION_AGEO</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<!-- 国内交易路から生産力+2 -->
+		<Row>
+			<ModifierId>TRAIT_DOMESTIC_PRODUCTION_AGEO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DOMESTIC_PRODUCTION_AGEO</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<!-- 国外交易路から食料+2 -->
+		<Row>
+			<ModifierId>TRAIT_INTERNATIONAL_FOOD_AGEO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INTERNATIONAL_FOOD_AGEO</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<!-- 国内交易路から食料+2 -->
+		<Row>
+			<ModifierId>TRAIT_DOMESTIC_FOOD_AGEO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DOMESTIC_FOOD_AGEO</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+	</ModifierArguments>
 	<!-- 特性の親定義(特性の名称と説明文) -->
 	<Traits>
 		<Row TraitType="TRAIT_LEADER_SAMPLELEADER" Name="LOC_TRAIT_LEADER_SAMPLELEADER_NAME" Description="LOC_TRAIT_LEADER_SAMPLELEADER_DESCRIPTION"/>

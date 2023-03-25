@@ -32,6 +32,9 @@
 		<Row Tag="LOC_CITIZEN_SAMPLECIV_MALE_4" Language="en_US">
 			<Text>Tom</Text>
 		</Row>
+		<Row Tag="LOC_CITIZEN_SAMPLECIV_MALE_5" Language="en_US">
+			<Text>Teddy</Text>
+		</Row>
 		<Row Tag="LOC_CITIZEN_SAMPLECIV_FEMALE_1" Language="en_US">
 			<Text>Kitty</Text>
 		</Row>
@@ -79,15 +82,156 @@
 		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_10" Language="en_US">
 			<Text>City9</Text>
 		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_11" Language="en_US">
+			<Text>City10</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_12" Language="en_US">
+			<Text>City11</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_13" Language="en_US">
+			<Text>City12</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_14" Language="en_US">
+			<Text>City13</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_15" Language="en_US">
+			<Text>City14</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_16" Language="en_US">
+			<Text>City15</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_17" Language="en_US">
+			<Text>City16</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_18" Language="en_US">
+			<Text>City17</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_19" Language="en_US">
+			<Text>City18</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_20" Language="en_US">
+			<Text>City19</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_21" Language="en_US">
+			<Text>City20</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_22" Language="en_US">
+			<Text>City21</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_23" Language="en_US">
+			<Text>City22</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_24" Language="en_US">
+			<Text>City23</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_25" Language="en_US">
+			<Text>City24</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_26" Language="en_US">
+			<Text>City25</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_27" Language="en_US">
+			<Text>City26</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_28" Language="en_US">
+			<Text>City27</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_29" Language="en_US">
+			<Text>City28</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_30" Language="en_US">
+			<Text>City29</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_31" Language="en_US">
+			<Text>City30</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_32" Language="en_US">
+			<Text>City31</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_33" Language="en_US">
+			<Text>City32</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_34" Language="en_US">
+			<Text>City33</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_35" Language="en_US">
+			<Text>City34</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_36" Language="en_US">
+			<Text>City35</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_37" Language="en_US">
+			<Text>City36</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_38" Language="en_US">
+			<Text>City37</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_39" Language="en_US">
+			<Text>City38</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_40" Language="en_US">
+			<Text>City39</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_41" Language="en_US">
+			<Text>City40</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_42" Language="en_US">
+			<Text>City41</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_43" Language="en_US">
+			<Text>City42</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_44" Language="en_US">
+			<Text>City43</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_45" Language="en_US">
+			<Text>City44</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_46" Language="en_US">
+			<Text>City45</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_47" Language="en_US">
+			<Text>City46</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_48" Language="en_US">
+			<Text>City47</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_49" Language="en_US">
+			<Text>City48</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_50" Language="en_US">
+			<Text>City49</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_51" Language="en_US">
+			<Text>City50</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_52" Language="en_US">
+			<Text>City51</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_53" Language="en_US">
+			<Text>City52</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_54" Language="en_US">
+			<Text>City53</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_55" Language="en_US">
+			<Text>City54</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_56" Language="en_US">
+			<Text>City55</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_57" Language="en_US">
+			<Text>City56</Text>
+		</Row>
 
 		<!-- Leader Quotes -->
 		<Row Tag="LOC_LEADER_SAMPLELEADER_QUOTE" Language="en_US">
-			<Text>Leader Quote</Text>
+			<Text>I'm Appy!</Text>
 		</Row>
 
 		<!-- Leader DOM -->
 		<Row Tag="LOC_LEADER_SAMPLELEADER_DOM_TEXT" Language="en_US">
-			<Text>Loading Text</Text>
+			<Text>Good luck,Appy.</Text>
 		</Row>
 	</LocalizedText>
 </GameData>

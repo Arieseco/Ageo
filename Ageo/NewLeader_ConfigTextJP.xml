@@ -15,7 +15,7 @@
 			<Text>上尾市の特性</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_SAMPLECIV_DESCRIPTION" Language="ja_JP">
-			<Text>交易路から食料+2、生産力+2</Text>
+			<Text>山岳から生産力+2、山岳に市民を配置できる。</Text>
 		</Row>
 
 		<!-- Leader -->
@@ -26,7 +26,24 @@
 			<Text>アッピ―くんの特性</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_SAMPLELEADER_DESCRIPTION" Language="ja_JP">
-			<Text>特性なし</Text>
+			<Text>交易路から食料+2、生産力+2</Text>
 		</Row>
+
+		<!-- UD -->
+		<Replace Tag="LOC_DISTRICT_CIVILIZATION_SAMPLECIV_ECHONOMIC_ZONE_NAME" Language="ja_JP">
+			<Text>上尾宿</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_CIVILIZATION_SAMPLECIV_ECHONOMIC_ZONE_DESCRIPTION" Language="ja_JP">
+			<Text>上尾市固有の区域。商業ハブに取って代わり、より安価に建設できる。隣接する工業地帯区域1つにつき [ICON_Gold] ゴールド+1</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_DISTRICT_CIVILIZATION_SAMPLECIV_ECHONOMIC_ZONE_NAME" Language="ja_JP">
+			<Text>上尾市固有の区域: 上尾宿</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_DISTRICT_CIVILIZATION_SAMPLECIV_ECHONOMIC_ZONE_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_GOLD_CIVILIZATION_SAMPLECIV" Language="ja_JP">
+			<Text>隣接する工業地帯区域により [ICON_Gold] ゴールド+{1_num}。</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

@@ -3,20 +3,31 @@
 	<LocalizedText>
 		<!-- Leader specific pedia text. -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAMPLELEADER_CHAPTER_CAPSULE_BODY" Language="ja_JP">
-			<Text>指導者の概要文章(Civilopedia)</Text>
+			<Text>指導者の概要文章(Civilopedia)アッピ―君は、上尾市のマスコットキャラクターです。</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAMPLELEADER_CHAPTER_DETAILED_BODY" Language="ja_JP">
-			<Text>指導者の詳細文章(Civilopedia)</Text>
+			<Text>指導者の詳細文章(Civilopedia)愛称の意味　あげおの「ア」、上昇や向上を意味する「アップ」、さらに幸せの「ハッピー」を合わせた「アッピー」という意味です。</Text>
 		</Row>
 
 		<!-- Leader specific historical text. -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAMPLELEADER_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
-			<Text>指導者の歴史的背景(Civilopedia)</Text>
+			<Text>
+				指導者の歴史的背景(Civilopedia)「Ageo」の頭文字「A」をモチーフとして、両手で大きな「マル」を描いて、市民相互の調和と触れ合いの輪がより大きく広がっていく願いを込めています。
+				　青いラインとそれに囲まれた緑は、水と緑の豊かな上尾の自然を、笑顔の赤は希望に満ちた元気な市民とまちの活力を表します。そして人も自然もまちも、上尾のすべてが未来に向けて限りなく快適で元気に発展していくことをイメージしており、上尾市のステートメント「あなたに　げんきを　おくるまち」に合致するものです。
+			</Text>
 		</Row>
 
 		<!-- Civilization specific historical text. -->
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SAMPLECIV_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
-			<Text>文明の歴史的背景(Civilopedia)</Text>
+			<Text>
+				文明の歴史的背景(Civilopedia)原始・古代　上尾の歴史は市内にある250カ所以上の遺跡から約2万年前の旧石器時代(先土器時代)までさかのぼれます。畔吉の殿山遺跡からは、関東地方では珍しい「国府型(こうがた)」のナイフ形石器などが出土しています。
+				　約1万2千年前に始まる縄文時代の遺跡からは土器や石器が発掘されています。また、貝塚などから当時の上尾周辺には海があったことも分かっています。古墳時代の遺跡からは鉄剣や鏡なども出土しています。
+				中世　平安時代末期になると武蔵国にも武士集団が結成され、鎌倉時代は上尾周辺も含め源頼朝に仕えた足立氏の勢力下にあり、鎌倉幕府滅亡後は足利尊氏の所領となります。このころから今も上尾市に残っている「菅谷村」などの地名が文献に登場してきます。また、中世特有の石造物として板碑が現存しており、約750基が確認されています。
+				近世　江戸時代に入ると、五街道が整備され、その内上尾は中山道にある69の宿場町の5番目の宿として、平方は荒川舟運の要衝としてまた、原市は市場町として、発展を遂げます。
+				近代・現代　明治16年、高崎線開通と同時に上尾駅が設置され中山道とともに市街地形成の基礎になりました。明治末期には近代工業の先駆けとして上尾町や平方町に製糸工場が建てられ、昭和になってからは機械・金物・食品工場も操業して工業都市としての下地が作られました。
+				　江戸時代に上尾市域に45あった宿・村は、明治初期に40となりました。その後6区域の町村になり、昭和30年3回目の合併で新上尾町となり、昭和33年県内19番目の市となりました。
+				　市制施行当時約3万7千人だった人口も加速度的に増加し、昭和45年には10万人を突破、平成30年には市制施行60周年を迎え、令和2年5月現在では22万9千人を数えるまでになりました。
+			</Text>
 		</Row>
 
 		<!-- Civlization Citizen Names -->
@@ -31,6 +42,9 @@
 		</Row>
 		<Row Tag="LOC_CITIZEN_SAMPLECIV_MALE_4" Language="ja_JP">
 			<Text>トム</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SAMPLECIV_MALE_5" Language="ja_JP">
+			<Text>テディ</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_SAMPLECIV_FEMALE_1" Language="ja_JP">
 			<Text>キティ</Text>
@@ -50,44 +64,184 @@
 
 		<!-- Civilization City Names-->
 		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_1" Language="ja_JP">
-			<Text>首都</Text>
+			<Text>柏座</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_2" Language="ja_JP">
-			<Text>都市1</Text>
+			<Text>上尾下</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_3" Language="ja_JP">
-			<Text>都市2</Text>
+			<Text>上尾宿</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_4" Language="ja_JP">
-			<Text>都市3</Text>
+			<Text>浅間台</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_5" Language="ja_JP">
-			<Text>都市4</Text>
+			<Text>東町</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_6" Language="ja_JP">
-			<Text>都市5</Text>
+			<Text>畔吉</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_7" Language="ja_JP">
-			<Text>都市6</Text>
+			<Text>愛宕</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_8" Language="ja_JP">
-			<Text>都市7</Text>
+			<Text>泉台</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_9" Language="ja_JP">
-			<Text>都市8</Text>
+			<Text>壱丁目</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_10" Language="ja_JP">
-			<Text>都市9</Text>
+			<Text>井戸木</Text>
 		</Row>
-
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_11" Language="ja_JP">
+			<Text>今泉</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_12" Language="ja_JP">
+			<Text>上野</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_13" Language="ja_JP">
+			<Text>大家本郷</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_14" Language="ja_JP">
+			<Text>春日</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_15" Language="ja_JP">
+			<Text>上</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_16" Language="ja_JP">
+			<Text>上町</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_17" Language="ja_JP">
+			<Text>上平中央</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_18" Language="ja_JP">
+			<Text>川</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_19" Language="ja_JP">
+			<Text>瓦葺</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_20" Language="ja_JP">
+			<Text>久保</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_21" Language="ja_JP">
+			<Text>小泉</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_22" Language="ja_JP">
+			<Text>小敷谷</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_23" Language="ja_JP">
+			<Text>五番町</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_24" Language="ja_JP">
+			<Text>栄町</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_25" Language="ja_JP">
+			<Text>地頭方</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_26" Language="ja_JP">
+			<Text>須ケ谷</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_27" Language="ja_JP">
+			<Text>堤崎</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_28" Language="ja_JP">
+			<Text>戸崎</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_29" Language="ja_JP">
+			<Text>中新井</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_30" Language="ja_JP">
+			<Text>仲町</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_31" Language="ja_JP">
+			<Text>中妻</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_32" Language="ja_JP">
+			<Text>中分</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_33" Language="ja_JP">
+			<Text>西貝塚</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_34" Language="ja_JP">
+			<Text>錦町</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_35" Language="ja_JP">
+			<Text>西宮下</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_36" Language="ja_JP">
+			<Text>西門前</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_37" Language="ja_JP">
+			<Text>原市</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_38" Language="ja_JP">
+			<Text>原市北</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_39" Language="ja_JP">
+			<Text>原新町</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_40" Language="ja_JP">
+			<Text>日の出</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_41" Language="ja_JP">
+			<Text>平方</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_42" Language="ja_JP">
+			<Text>平方領領家</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_43" Language="ja_JP">
+			<Text>藤波</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_44" Language="ja_JP">
+			<Text>富士見</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_45" Language="ja_JP">
+			<Text>二ツ宮</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_46" Language="ja_JP">
+			<Text>弁財</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_47" Language="ja_JP">
+			<Text>本町</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_48" Language="ja_JP">
+			<Text>緑丘</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_49" Language="ja_JP">
+			<Text>南</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_50" Language="ja_JP">
+			<Text>宮本町</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_51" Language="ja_JP">
+			<Text>谷津</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_52" Language="ja_JP">
+			<Text>向山</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_53" Language="ja_JP">
+			<Text>領家</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_54" Language="ja_JP">
+			<Text>壱丁目北</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_55" Language="ja_JP">
+			<Text>壱丁目西</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_56" Language="ja_JP">
+			<Text>壱丁目東</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SAMPLECIV_CITY_57" Language="ja_JP">
+			<Text>壱丁目南</Text>
+		</Row>
 		<!-- Leader Quotes -->
 		<Row Tag="LOC_LEADER_SAMPLELEADER_QUOTE" Language="ja_JP">
-			<Text>指導者の一言コメント</Text>
+			<Text>指導者の一言コメント「アッピ―くんだよ！」</Text>
 		</Row>
 
 		<!-- Leader DOM -->
 		<Row Tag="LOC_LEADER_SAMPLELEADER_DOM_TEXT" Language="ja_JP">
-			<Text>ローディング中の紹介文</Text>
+			<Text>アッピ―くん、がんばってください！</Text>
 		</Row>
 	</LocalizedText>
 </GameData>
