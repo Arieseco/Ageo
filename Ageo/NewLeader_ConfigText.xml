@@ -45,5 +45,33 @@
 		<Row Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_GOLD_CIVILIZATION_SAMPLECIV" Language="en_US">
 			<Text>+{1_num} [ICON_Gold] Gold from the adjacent Industrial Zone district.</Text>
 		</Row>
+
+		<!-- UB -->
+		<Row Tag="LOC_BUILDING_CIVILIZATION_SAMPLECIV_CUSTOM_WORKSHOP_NAME" Language="en_US">
+			<Text>Custom Workshop</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_CIVILIZATION_SAMPLECIV_CUSTOM_WORKSHOP_DESCRIPTION" Language="en_US">
+			<Text>A building unique to Super sample Civilization. Replaces the Workshop. +3 [ICON_Production] Production, +2 [ICON_Culture] Culture. +1 [ICON_Production] Production from strategic resource in this city.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_BUILDING_CIVILIZATION_SAMPLECIV_CUSTOM_WORKSHOP_NAME" Language="en_US">
+			<Text>Super Sample Civilization unique building: Custom Workshop</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_BUILDING_CIVILIZATION_SAMPLECIV_CUSTOM_WORKSHOP_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<!-- UI -->
+		<Row Tag="LOC_IMPROVEMENT_CIVILIZATION_SAMPLECIV_BUDDHA_NAME" Language="en_US">
+			<Text>Buddha</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_CIVILIZATION_SAMPLECIV_BUDDHA_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct a Buddha, unique to Super Sample Civilization.[NEWLINE][NEWLINE]+2 [ICON_Faith] Faith. +1 [ICON_Culture] Culture once Theology is discoverd. [ICON_Faith] Faith for every 2 adjacent Rainforest or for every adjacent Rainforest once Reformed Church is discovered. +1 [ICON_Faith] Faith for every 2 adjacent Woods or for every adjacent Woods once Reformed Church is discovered. [ICON_TOURISM] Tourism from [ICON_FAITH] Faith once Flight is researched. Cannot be built on Snow or Snow Hills.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_CIVILIZATION_SAMPLECIV_BUDDHA_NAME" Language="en_US">
+			<Text>Super Sample Civilization unique improvement: Buddha</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_IMPROVEMENT_CIVILIZATION_SAMPLECIV_BUDDHA_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
 	</LocalizedText>
 </GameData>

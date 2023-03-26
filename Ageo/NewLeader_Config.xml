@@ -30,5 +30,27 @@
 			<Description>LOC_DISTRICT_CIVILIZATION_SAMPLECIV_ECHONOMIC_ZONE_DESCRIPTION</Description>
 			<SortIndex>20</SortIndex>
 		</Row>
+		<!-- UB -->
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_SAMPLECIV</CivilizationType>
+			<LeaderType>LEADER_SAMPLELEADER</LeaderType>
+			<Type>BUILDING_CIVILIZATION_SAMPLECIV_CUSTOM_WORKSHOP</Type>
+			<Icon>ICON_BUILDING_CIVILIZATION_SAMPLECIV_CUSTOM_WORKSHOP</Icon>
+			<Name>LOC_BUILDING_CIVILIZATION_SAMPLECIV_CUSTOM_WORKSHOP_NAME</Name>
+			<Description>LOC_BUILDING_CIVILIZATION_SAMPLECIV_CUSTOM_WORKSHOP_DESCRIPTION</Description>
+			<SortIndex>30</SortIndex>
+		</Row>
+		<!-- 建造物 -->
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_SAMPLECIV</CivilizationType>
+			<LeaderType>LEADER_SAMPLELEADER</LeaderType>
+			<Type>IMPROVEMENT_CIVILIZATION_SAMPLECIV_BUDDHA</Type>
+			<Icon>ICON_IMPROVEMENT_CIVILIZATION_SAMPLECIV_BUDDHA</Icon>
+			<Name>LOC_IMPROVEMENT_CIVILIZATION_SAMPLECIV_BUDDHA_NAME</Name>
+			<Description>LOC_IMPROVEMENT_CIVILIZATION_SAMPLECIV_BUDDHA_DESCRIPTION</Description>
+			<SortIndex>40</SortIndex>
+		</Row>
 	</PlayerItems>
 </GameData>

@@ -1,7 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- NewLeader_UI -->
-<!-- Author: yoshi -->
-<!-- DateCreated: 7/26/2019 1:56:39 AM -->
 <GameData>
-
+	<!-- 親定義 -->
+	<Types>
+		<Row Type="IMPROVEMENT_CIVILIZATION_SAMPLECIV_BUDDHA" Kind="KIND_IMPROVEMENT"/>
+	</Types>
+	<!-- 主設定 -->
+	<Improvements>
+		<!-- 石工術で解禁 -->
+		<Row ImprovementType="IMPROVEMENT_CIVILIZATION_SAMPLECIV_BUDDHA" Name="LOC_IMPROVEMENT_CIVILIZATION_SAMPLECIV_BUDDHA_NAME" Description="LOC_IMPROVEMENT_CIVILIZATION_SAMPLECIV_BUDDHA_DESCRIPTION"
+             Icon="ICON_IMPROVEMENT_CIVILIZATION_SAMPLECIV_BUDDHA" PlunderType="PLUNDER_FAITH" PlunderAmount="25" Buildable="true" PrereqTech="TECH_MASONRY"
+             TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_CIVILIZATION_SAMPLECIV_BUDDHA"/>
+	</Improvements>
+	<!-- 隣接ボーナスの参照先 -->
+	<Improvement_Adjacencies>
+		<Row ImprovementType="IMPROVEMENT_CIVILIZATION_SAMPLECIV_BUDDHA" YieldChangeId="Civilization_SampleCiv_FaithForestEarly"/>
+		<Row ImprovementType="IMPROVEMENT_CIVILIZATION_SAMPLECIV_BUDDHA" YieldChangeId="Civilization_SampleCiv_FaithJungleEarly"/>
+		<Row ImprovementType="IMPROVEMENT_CIVILIZATION_SAMPLECIV_BUDDHA" YieldChangeId="Civilization_SampleCiv_FaithForestLate"/>
+		<Row ImprovementType="IMPROVEMENT_CIVILIZATION_SAMPLECIV_BUDDHA" YieldChangeId="Civilization_SampleCiv_FaithJungleLate"/>
+	</Improvement_Adjacencies>
+	<!-- 改善できる地形 -->
+	<Improvement_ValidTerrains>
+		<Row ImprovementType="IMPROVEMENT_CIVILIZATION_SAMPLECIV_BUDDHA" TerrainType="TERRAIN_DESERT"/>
+		<Row ImprovementType="IMPROVEMENT_CIVILIZATION_SAMPLECIV_BUDDHA" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ImprovementType="IMPROVEMENT_CIVILIZATION_SAMPLECIV_BUDDHA" TerrainType="TERRAIN_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_CIVILIZATION_SAMPLECIV_BUDDHA" TerrainType="TERRAIN_GRASS"/>
+		<Row ImprovementType="IMPROVEMENT_CIVILIZATION_SAMPLECIV_BUDDHA" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_CIVILIZATION_SAMPLECIV_BUDDHA" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_CIVILIZATION_SAMPLECIV_BUDDHA" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_CIVILIZATION_SAMPLECIV_BUDDHA" TerrainType="TERRAIN_GRASS_HILLS"/>
+	</Improvement_ValidTerrains>
+	<!-- 改善できる特徴 -->
+	<Improvement_ValidFeatures>
+		<Row ImprovementType="IMPROVEMENT_CIVILIZATION_SAMPLECIV_BUDDHA" FeatureType="FEATURE_VOLCANIC_SOIL"/>
+	</Improvement_ValidFeatures>
+	<!-- 改善を行うユニット -->
+	<Improvement_ValidBuildUnits>
+		<Row ImprovementType="IMPROVEMENT_CIVILIZATION_SAMPLECIV_BUDDHA" UnitType="UNIT_BUILDER"/>
+	</Improvement_ValidBuildUnits>
+	<!-- 出力 -->
+	<Improvement_YieldChanges>
+		<!-- 文化力+0の記述の必要性：技術取得で増えるようにするため -->
+		<Row ImprovementType="IMPROVEMENT_CIVILIZATION_SAMPLECIV_BUDDHA" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Row ImprovementType="IMPROVEMENT_CIVILIZATION_SAMPLECIV_BUDDHA" YieldType="YIELD_CULTURE" YieldChange="0"/>
+	</Improvement_YieldChanges>
+	<!-- 社会制度・テクノロジー取得による追加ボーナス -->
+	<Improvement_BonusYieldChanges>
+		<!-- 神学：文化力+1 -->
+		<Row Id="Civilization_SampleCiv_UI1" ImprovementType="IMPROVEMENT_CIVILIZATION_SAMPLECIV_BUDDHA" YieldType="YIELD_CULTURE" BonusYieldChange="1" PrereqCivic="CIVIC_THEOLOGY"/>
+	</Improvement_BonusYieldChanges>
+	<!-- 観光力 -->
+	<Improvement_Tourism>
+		<Row ImprovementType="IMPROVEMENT_CIVILIZATION_SAMPLECIV_BUDDHA" TourismSource="TOURISMSOURCE_FAITH" PrereqTech="TECH_FLIGHT" ScalingFactor="100"/>
+	</Improvement_Tourism>
+	<!-- 隣接ボーナス詳細 -->
+	<Adjacency_YieldChanges>
+		<!-- ベースは2タイルで信仰力+1、宗教改革取得で1タイルで信仰力+1に変更される -->
+		<Row ID="Civilization_SampleCiv_FaithForestEarly" Description="Placeholder" YieldType="YIELD_FAITH" YieldChange="1" TilesRequired="2" AdjacentFeature="FEATURE_FOREST" ObsoleteCivic="CIVIC_REFORMED_CHURCH"/>
+		<Row ID="Civilization_SampleCiv_FaithJungleEarly" Description="Placeholder" YieldType="YIELD_FAITH" YieldChange="1" TilesRequired="2" AdjacentFeature="FEATURE_JUNGLE" ObsoleteCivic="CIVIC_REFORMED_CHURCH"/>
+		<Row ID="Civilization_SampleCiv_FaithForestLate" Description="Placeholder" YieldType="YIELD_FAITH" YieldChange="1" TilesRequired="1" AdjacentFeature="FEATURE_FOREST" PrereqCivic="CIVIC_REFORMED_CHURCH"/>
+		<Row ID="Civilization_SampleCiv_FaithJungleLate" Description="Placeholder" YieldType="YIELD_FAITH" YieldChange="1" TilesRequired="1" AdjacentFeature="FEATURE_JUNGLE" PrereqCivic="CIVIC_REFORMED_CHURCH"/>
+	</Adjacency_YieldChanges>
 </GameData>

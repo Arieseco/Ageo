@@ -1,4 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-
+	<!-- 親定義 -->
+	<Types>
+		<Row Type="BUILDING_CIVILIZATION_SAMPLECIV_CUSTOM_WORKSHOP" Kind="KIND_BUILDING"/>
+	</Types>
+	<!-- 置換設定 -->
+	<BuildingReplaces>
+		<Row CivUniqueBuildingType="BUILDING_CIVILIZATION_SAMPLECIV_CUSTOM_WORKSHOP" ReplacesBuildingType="BUILDING_WORKSHOP"/>
+	</BuildingReplaces>
+	<!-- 主設定 -->
+	<Buildings>
+		<Row BuildingType="BUILDING_CIVILIZATION_SAMPLECIV_CUSTOM_WORKSHOP" Name="LOC_BUILDING_CIVILIZATION_SAMPLECIV_CUSTOM_WORKSHOP_NAME" Description="LOC_BUILDING_CIVILIZATION_SAMPLECIV_CUSTOM_WORKSHOP_DESCRIPTION"
+             PrereqTech="TECH_APPRENTICESHIP" PrereqDistrict="DISTRICT_INDUSTRIAL_ZONE"
+             PurchaseYield="YIELD_GOLD" Cost="195" AdvisorType="ADVISOR_GENERIC" Maintenance="1" CitizenSlots="1"
+             TraitType="TRAIT_CIVILIZATION_BUILDING_CIVILIZATION_SAMPLECIV_CUSTOM_WORKSHOP"/>
+	</Buildings>
+	<!-- 出力 -->
+	<Building_YieldChanges>
+		<!-- 生産力+3、文化力+1 -->
+		<Row BuildingType="BUILDING_CIVILIZATION_SAMPLECIV_CUSTOM_WORKSHOP" YieldType="YIELD_PRODUCTION" YieldChange="3"/>
+		<Row BuildingType="BUILDING_CIVILIZATION_SAMPLECIV_CUSTOM_WORKSHOP" YieldType="YIELD_CULTURE" YieldChange="1"/>
+	</Building_YieldChanges>
+	<!-- 偉人ポイント -->
+	<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_CIVILIZATION_SAMPLECIV_CUSTOM_WORKSHOP" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
+	</Building_GreatPersonPoints>
+	<!-- 建造物が持つ特殊効果 -->
+	<BuildingModifiers>
+		<Row>
+			<BuildingType>BUILDING_CIVILIZATION_SAMPLECIV_CUSTOM_WORKSHOP</BuildingType>
+			<ModifierId>CIVILIZATION_SAMPLECIV_CUSTOM_WORKSHOP_STRATEGIC_RESOURCE_PRODUCTION</ModifierId>
+		</Row>
+	</BuildingModifiers>
+	<!-- 効果の定義 -->
+	<Modifiers>
+		<Row>
+			<ModifierId>CIVILIZATION_SAMPLECIV_CUSTOM_WORKSHOP_STRATEGIC_RESOURCE_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_STRATEGIC_RESOURCE_CIVILIZATION_SAMPLECIV</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<!-- 効果のパラメータ -->
+	<ModifierArguments>
+		<!-- 生産力 -->
+		<Row>
+			<ModifierId>CIVILIZATION_SAMPLECIV_CUSTOM_WORKSHOP_STRATEGIC_RESOURCE_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<!-- 値：+1 -->
+		<Row>
+			<ModifierId>CIVILIZATION_SAMPLECIV_CUSTOM_WORKSHOP_STRATEGIC_RESOURCE_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+	<!-- 条件の定義 -->
+	<RequirementSets>
+		<!-- すべての条件を満たす -->
+		<Row>
+			<RequirementSetId>PLOT_HAS_STRATEGIC_RESOURCE_CIVILIZATION_SAMPLECIV</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<!-- 条件のパラメータ -->
+	<RequirementSetRequirements>
+		<!-- 戦略資源 -->
+		<Row>
+			<RequirementSetId>PLOT_HAS_STRATEGIC_RESOURCE_CIVILIZATION_SAMPLECIV</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_STRATEGIC</RequirementId>
+		</Row>
+		<!-- 見えている資源 -->
+		<Row>
+			<RequirementSetId>PLOT_HAS_STRATEGIC_RESOURCE_CIVILIZATION_SAMPLECIV</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_VISIBLE_RESOURCE</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
 </GameData>

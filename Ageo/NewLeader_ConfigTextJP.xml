@@ -45,5 +45,33 @@
 		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_GOLD_CIVILIZATION_SAMPLECIV" Language="ja_JP">
 			<Text>隣接する工業地帯区域により [ICON_Gold] ゴールド+{1_num}。</Text>
 		</Replace>
+
+		<!-- UB -->
+		<Replace Tag="LOC_BUILDING_CIVILIZATION_SAMPLECIV_CUSTOM_WORKSHOP_NAME" Language="ja_JP">
+			<Text>カスタム工房</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CIVILIZATION_SAMPLECIV_CUSTOM_WORKSHOP_DESCRIPTION" Language="ja_JP">
+			<Text>超サンプル文明固有の建造物。工房に取って代わる。 [ICON_Production] 生産力+3、 [ICON_Culture] 文化力+1。この都市の戦略資源から [ICON_Production] 生産力+1。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_BUILDING_CIVILIZATION_SAMPLECIV_CUSTOM_WORKSHOP_NAME" Language="ja_JP">
+			<Text>超サンプル文明固有の建造物: カスタム工房</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_BUILDING_CIVILIZATION_SAMPLECIV_CUSTOM_WORKSHOP_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
+		</Replace>
+
+		<!-- UI -->
+		<Replace Tag="LOC_IMPROVEMENT_CIVILIZATION_SAMPLECIV_BUDDHA_NAME" Language="ja_JP">
+			<Text>仏像</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_CIVILIZATION_SAMPLECIV_BUDDHA_DESCRIPTION" Language="ja_JP">
+			<Text>労働者が仏像を建設できるようになる。[NEWLINE][NEWLINE][ICON_Faith] 信仰力+2。神学の発見後は [ICON_Culture] 文化力+1が追加される。隣接している熱帯雨林2つ (宗教改革の発見後は1つ) ごとに [ICON_Faith] 信仰力+1。隣接している森2つ (宗教改革の発見後は1つ) ごとに [ICON_Faith] 信仰力+1。航空技術を研究した後は、 [ICON_FAITH] 信仰力ではなく [ICON_TOURISM] 観光力を得る。雪原と雪原の丘陵には建設できない。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_CIVILIZATION_SAMPLECIV_BUDDHA_NAME" Language="ja_JP">
+			<Text>超サンプル文明固有の地形改善: 仏像</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_IMPROVEMENT_CIVILIZATION_SAMPLECIV_BUDDHA_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
+		</Replace>
 	</LocalizedText>
 </GameData>
