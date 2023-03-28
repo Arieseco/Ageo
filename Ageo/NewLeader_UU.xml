@@ -1,4 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+	<Types>
+		<Row Type="UNIT_CIVILIZATION_SAMPLECIV_WAR_CART" Kind="KIND_UNIT"/>
+	</Types>
+	<UnitAiInfos>
+		<!-- AI：戦闘系 -->
+		<Row UnitType="UNIT_CIVILIZATION_SAMPLECIV_WAR_CART" AiType="UNITAI_COMBAT"/>
+		<!-- 近接戦闘 -->
+		<Row UnitType="UNIT_CIVILIZATION_SAMPLECIV_WAR_CART" AiType="UNITTYPE_MELEE"/>
+		<!-- 騎兵系 -->
+		<Row UnitType="UNIT_CIVILIZATION_SAMPLECIV_WAR_CART" AiType="UNITTYPE_CAVALRY"/>
+		<!-- 陸上ユニット -->
+		<Row UnitType="UNIT_CIVILIZATION_SAMPLECIV_WAR_CART" AiType="UNITTYPE_LAND_COMBAT"/>
+	</UnitAiInfos>
+	<TypeTags>
+		<!-- 開けた地形から移動すると移動力+1 -->
+		<Row Type="UNIT_CIVILIZATION_SAMPLECIV_WAR_CART" Tag="CLASS_HEAVY_CHARIOT"/>
+		<!-- ZOCを無視する -->
+		<Row Type="UNIT_CIVILIZATION_SAMPLECIV_WAR_CART" Tag="CLASS_WAR_CART"/>
+		<!-- 移動後も回復 -->
+		<Row Type="UNIT_CIVILIZATION_SAMPLECIV_WAR_CART" Tag="CLASS_MAMLUK"/>
+	</TypeTags>
+	<Units>
+		<Row UnitType="UNIT_CIVILIZATION_SAMPLECIV_WAR_CART" Cost="55" BaseMoves="3"
+             BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="28"
+             FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY" AdvisorType="ADVISOR_CONQUEST"
+             Name="LOC_UNIT_CIVILIZATION_SAMPLECIV_WAR_CART_NAME" Description="LOC_UNIT_CIVILIZATION_SAMPLECIV_WAR_CART_DESCRIPTION"
+             PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_STIRRUPS"
+             TraitType="TRAIT_CIVILIZATION_UNIT_CIVILIZATION_SAMPLECIV_WAR_CART"/>
+	</Units>
+	<UnitUpgrades>
+		<!-- アップグレード先：騎士 -->
+		<Row Unit="UNIT_CIVILIZATION_SAMPLECIV_WAR_CART" UpgradeUnit="UNIT_KNIGHT"/>
+	</UnitUpgrades>
 
 </GameData>

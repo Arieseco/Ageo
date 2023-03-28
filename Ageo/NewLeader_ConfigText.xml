@@ -73,5 +73,19 @@
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_IMPROVEMENT_CIVILIZATION_SAMPLECIV_BUDDHA_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
+
+		<!-- UU -->
+		<Row Tag="LOC_UNIT_CIVILIZATION_SAMPLECIV_WAR_CART_NAME" Language="en_US">
+			<Text>Custom War-Cart</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_CIVILIZATION_SAMPLECIV_WAR_CART_DESCRIPTION" Language="en_US">
+			<Text>Super sample Civilization unique Ancient era unit. No penalties against anti-cavalry units. 4 [ICON_Movement] Movement if this unit starts in open terrain. Heals at the end of every turn, even after moving or attacking.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_CIVILIZATION_SAMPLECIV_WAR_CART_NAME" Language="en_US">
+			<Text>Super sample Civilization unique unit: Custom War-Cart</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CIVILIZATION_SAMPLECIV_WAR_CART_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
 	</LocalizedText>
 </GameData>
