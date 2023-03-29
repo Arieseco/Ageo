@@ -40,13 +40,13 @@
 	<!-- 出力 -->
 	<Improvement_YieldChanges>
 		<!-- 文化力+0の記述の必要性：技術取得で増えるようにするため -->
-		<Row ImprovementType="IMPROVEMENT_CIVILIZATION_SAMPLECIV_BUDDHA" YieldType="YIELD_FAITH" YieldChange="2"/>
-		<Row ImprovementType="IMPROVEMENT_CIVILIZATION_SAMPLECIV_BUDDHA" YieldType="YIELD_CULTURE" YieldChange="0"/>
+		<Row ImprovementType="IMPROVEMENT_CIVILIZATION_SAMPLECIV_BUDDHA" YieldType="YIELD_FOOD" YieldChange="2"/>
+		<Row ImprovementType="IMPROVEMENT_CIVILIZATION_SAMPLECIV_BUDDHA" YieldType="YIELD_PRODUCTION" YieldChange="0"/>
 	</Improvement_YieldChanges>
 	<!-- 社会制度・テクノロジー取得による追加ボーナス -->
 	<Improvement_BonusYieldChanges>
 		<!-- 神学：文化力+1 -->
-		<Row Id="Civilization_SampleCiv_UI1" ImprovementType="IMPROVEMENT_CIVILIZATION_SAMPLECIV_BUDDHA" YieldType="YIELD_CULTURE" BonusYieldChange="1" PrereqCivic="CIVIC_THEOLOGY"/>
+		<Row Id="Civilization_SampleCiv_UI1" ImprovementType="IMPROVEMENT_CIVILIZATION_SAMPLECIV_BUDDHA" YieldType="YIELD_PRODUCTION" BonusYieldChange="1" PrereqCivic="CIVIC_THEOLOGY"/>
 	</Improvement_BonusYieldChanges>
 	<!-- 観光力 -->
 	<Improvement_Tourism>
@@ -55,9 +55,9 @@
 	<!-- 隣接ボーナス詳細 -->
 	<Adjacency_YieldChanges>
 		<!-- ベースは2タイルで信仰力+1、宗教改革取得で1タイルで信仰力+1に変更される -->
-		<Row ID="Civilization_SampleCiv_FaithForestEarly" Description="Placeholder" YieldType="YIELD_FAITH" YieldChange="1" TilesRequired="2" AdjacentFeature="FEATURE_FOREST" ObsoleteCivic="CIVIC_REFORMED_CHURCH"/>
-		<Row ID="Civilization_SampleCiv_FaithJungleEarly" Description="Placeholder" YieldType="YIELD_FAITH" YieldChange="1" TilesRequired="2" AdjacentFeature="FEATURE_JUNGLE" ObsoleteCivic="CIVIC_REFORMED_CHURCH"/>
-		<Row ID="Civilization_SampleCiv_FaithForestLate" Description="Placeholder" YieldType="YIELD_FAITH" YieldChange="1" TilesRequired="1" AdjacentFeature="FEATURE_FOREST" PrereqCivic="CIVIC_REFORMED_CHURCH"/>
-		<Row ID="Civilization_SampleCiv_FaithJungleLate" Description="Placeholder" YieldType="YIELD_FAITH" YieldChange="1" TilesRequired="1" AdjacentFeature="FEATURE_JUNGLE" PrereqCivic="CIVIC_REFORMED_CHURCH"/>
+		<Row ID="Civilization_SampleCiv_FaithForestEarly" Description="Placeholder" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="2" AdjacentFeature="FEATURE_FOREST" ObsoleteCivic="CIVIC_REFORMED_CHURCH"/>
+		<Row ID="Civilization_SampleCiv_FaithJungleEarly" Description="Placeholder" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="2" AdjacentFeature="FEATURE_JUNGLE" ObsoleteCivic="CIVIC_REFORMED_CHURCH"/>
+		<Row ID="Civilization_SampleCiv_FaithForestLate" Description="Placeholder" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentFeature="FEATURE_FOREST" PrereqCivic="CIVIC_REFORMED_CHURCH"/>
+		<Row ID="Civilization_SampleCiv_FaithJungleLate" Description="Placeholder" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentFeature="FEATURE_JUNGLE" PrereqCivic="CIVIC_REFORMED_CHURCH"/>
 	</Adjacency_YieldChanges>
 </GameData>

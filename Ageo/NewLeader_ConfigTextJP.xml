@@ -76,13 +76,13 @@
 
 		<!-- UU -->
 		<Replace Tag="LOC_UNIT_CIVILIZATION_SAMPLECIV_WAR_CART_NAME" Language="ja_JP">
-			<Text>カスタム戦闘車</Text>
+			<Text>アッピ―くん投擲隊</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_CIVILIZATION_SAMPLECIV_WAR_CART_DESCRIPTION" Language="ja_JP">
-			<Text>太古の超サンプル文明固有のユニット。対騎兵ユニットに対してペナルティが発生しない。開けた地形で移動を開始した場合は [ICON_Movement] 移動力4。移動あるいは攻撃した後でも、ターン終了時に回復する。</Text>
+			<Text>太古の上尾市固有のユニット。移動あるいは攻撃した後でも、ターン終了時に回復する。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_UNIT_CIVILIZATION_SAMPLECIV_WAR_CART_NAME" Language="ja_JP">
-			<Text>超サンプル文明固有のユニット: カスタム戦闘車</Text>
+			<Text>上尾市固有のユニット: アッピ―くん投擲隊</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CIVILIZATION_SAMPLECIV_WAR_CART_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text></Text>

@@ -203,7 +203,7 @@
 						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 					</Element>
 				</m_ChildCollections>
-				<m_Name text="ProductionBuildings"/>
+				<m_Name text="BUILDING_CIVILIZATION_SAMPLECIV_CUSTOM_WORKSHOP"/>
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 		</Element>
