@@ -12,10 +12,10 @@
 			<Text>上尾市の</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_SAMPLECIV_NAME" Language="ja_JP">
-			<Text>上尾市の特性</Text>
+			<Text>あなたにげんきをおくるまち</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_SAMPLECIV_DESCRIPTION" Language="ja_JP">
-			<Text>山岳から生産力+2、山岳に市民を配置できる。</Text>
+			<Text>沿岸都市の快適性+5、住宅+5。</Text>
 		</Row>
 
 		<!-- Leader -->
@@ -48,13 +48,13 @@
 
 		<!-- UB -->
 		<Replace Tag="LOC_BUILDING_CIVILIZATION_SAMPLECIV_CUSTOM_WORKSHOP_NAME" Language="ja_JP">
-			<Text>カスタム工房</Text>
+			<Text>木賃宿</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_CIVILIZATION_SAMPLECIV_CUSTOM_WORKSHOP_DESCRIPTION" Language="ja_JP">
-			<Text>超サンプル文明固有の建造物。工房に取って代わる。 [ICON_Production] 生産力+3、 [ICON_Culture] 文化力+1。この都市の戦略資源から [ICON_Production] 生産力+1。</Text>
+			<Text>上尾市固有の建造物。市場に取って代わる。 [ICON_Gold] ゴールド+3、[ICON_Food]食料+2、 [ICON_Culture] 文化力+1。この都市の戦略資源から [ICON_Production] 生産力+1。高級資源から[ICON_Amenity]快適性+1。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_BUILDING_CIVILIZATION_SAMPLECIV_CUSTOM_WORKSHOP_NAME" Language="ja_JP">
-			<Text>超サンプル文明固有の建造物: カスタム工房</Text>
+			<Text>上尾市固有の建造物: 木賃宿</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_UNITS_PAGE_BUILDING_CIVILIZATION_SAMPLECIV_CUSTOM_WORKSHOP_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text></Text>
@@ -62,13 +62,13 @@
 
 		<!-- UI -->
 		<Replace Tag="LOC_IMPROVEMENT_CIVILIZATION_SAMPLECIV_BUDDHA_NAME" Language="ja_JP">
-			<Text>仏像</Text>
+			<Text>アッピ―くん像</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_CIVILIZATION_SAMPLECIV_BUDDHA_DESCRIPTION" Language="ja_JP">
-			<Text>労働者が仏像を建設できるようになる。[NEWLINE][NEWLINE][ICON_Faith] 信仰力+2。神学の発見後は [ICON_Culture] 文化力+1が追加される。隣接している熱帯雨林2つ (宗教改革の発見後は1つ) ごとに [ICON_Faith] 信仰力+1。隣接している森2つ (宗教改革の発見後は1つ) ごとに [ICON_Faith] 信仰力+1。航空技術を研究した後は、 [ICON_FAITH] 信仰力ではなく [ICON_TOURISM] 観光力を得る。雪原と雪原の丘陵には建設できない。</Text>
+			<Text>労働者がアッピ―くん像を建設できるようになる。[NEWLINE][NEWLINE][ICON_Faith] +2。神学の発見後は [ICON_Culture] 文化力+1が追加される。隣接している熱帯雨林2つ (宗教改革の発見後は1つ) ごとに [ICON_Faith] 信仰力+1。隣接している森2つ (宗教改革の発見後は1つ) ごとに [ICON_Faith] 信仰力+1。航空技術を研究した後は、 [ICON_FAITH] 信仰力ではなく [ICON_TOURISM] 観光力を得る。雪原と雪原の丘陵には建設できない。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_CIVILIZATION_SAMPLECIV_BUDDHA_NAME" Language="ja_JP">
-			<Text>超サンプル文明固有の地形改善: 仏像</Text>
+			<Text>上尾市固有の地形改善: アッピ―くん像</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_UNITS_PAGE_IMPROVEMENT_CIVILIZATION_SAMPLECIV_BUDDHA_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text></Text>

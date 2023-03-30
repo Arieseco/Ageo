@@ -69,56 +69,87 @@
 	</CityNames>
 	<!-- 使用する特性の指定 -->
 	<TraitModifiers>
-		<!-- 山岳に市民を配置 -->
+		<!-- 沿岸都市から快適性+5 -->
 		<Row>
 			<TraitType>TRAIT_LEADER_SAMPLELEADER</TraitType>
-			<ModifierId>TRAIT_WORK_GRASS_MOUNTAIN</ModifierId>
+			<ModifierId>TRAIT_COASTAL_ADDAMENITIES</ModifierId>
 		</Row>
+		<!--沿岸都市から住宅+5-->
 		<Row>
 			<TraitType>TRAIT_LEADER_SAMPLELEADER</TraitType>
-			<ModifierId>TRAIT_WORK_PLAINS_MOUNTAIN</ModifierId>
+			<ModifierId>TRAIT_COASTAL_HOUSING_AGEO</ModifierId>
 		</Row>
+
+		<!-- 港区域に生産力ボーナス -->
 		<Row>
 			<TraitType>TRAIT_LEADER_SAMPLELEADER</TraitType>
-			<ModifierId>TRAIT_WORK_DESERT_MOUNTAIN</ModifierId>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_LEADER_SAMPLELEADER</TraitType>
-			<ModifierId>TRAIT_WORK_TUNDRA_MOUNTAIN</ModifierId>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_LEADER_SAMPLELEADER</TraitType>
-			<ModifierId>TRAIT_WORK_SNOW_MOUNTAIN</ModifierId>
-		</Row>
-		<!-- 山岳から生産力+2 -->
-		<Row>
-			<TraitType>TRAIT_LEADER_SAMPLELEADER</TraitType>
-			<ModifierId>TRAIT_PRODUCTION_MOUNTAIN_AGEO</ModifierId>
+			<ModifierId>TRAIT_BOOST_MINATO</ModifierId>
 		</Row>
 	</TraitModifiers>
 	<!-- 特性の個別定義 -->
 	<Modifiers>
-		<!-- 国外交易路から生産力+2 -->
+		<!-- 沿岸都市から快適性+5  -->
 		<Row>
-			<ModifierId>TRAIT_PRODUCTION_MOUNTAIN_AGEO</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>REQUIREMENTS_PLOT_IS_MOUNTAIN</SubjectRequirementSetId>
+			<ModifierId>TRAIT_COASTAL_ADDAMENITIES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_DISTRICT_AMENITY</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_COASTAL_LAND_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<!-- 沿岸都市から住宅+5  -->
+		<Row>
+			<ModifierId>TRAIT_COASTAL_HOUSING_AGEO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_WATER_HOUSING</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_COASTAL_LAND_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_BOOST_MINATO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
 		</Row>
 	</Modifiers>
 	<!-- 特性のパラメータ -->
 	<ModifierArguments>
-		<!-- 国外交易路から生産力+2 -->
+		<!-- 沿岸都市から快適性+5  -->
 		<Row>
-			<ModifierId>TRAIT_PRODUCTION_MOUNTAIN_AGEO</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_PRODUCTION</Value>
+			<ModifierId>TRAIT_COASTAL_ADDAMENITIES</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<!-- 沿岸都市から住宅+5  -->
+		<Row>
+			<ModifierId>TRAIT_COASTAL_HOUSING_AGEO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_BOOST_MINATO</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HARBOR</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_PRODUCTION_MOUNTAIN_AGEO</ModifierId>
+			<ModifierId>TRAIT_BOOST_MINATO</ModifierId>
 			<Name>Amount</Name>
-			<Value>2</Value>
+			<Value>100</Value>
 		</Row>
 	</ModifierArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLOT_IS_COASTAL_LAND_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<Requirements>
+		<Row>
+			<RequirementId>PLOT_IS_COASTAL_LAND</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_IS_COASTAL_LAND</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLOT_IS_COASTAL_LAND_REQUIREMENTS</RequirementSetId>
+			<RequirementId>PLOT_IS_COASTAL_LAND</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
 	<!-- 開始位置補正 -->
 	<StartBiasTerrains>
 		<Row CivilizationType="CIVILIZATION_SAMPLECIV" TerrainType="TERRAIN_GRASS_MOUNTAIN" Tier="3"/>
